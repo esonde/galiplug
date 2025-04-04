@@ -71,7 +71,7 @@
 Esegui:
 
 ```
-/schedule function galiplug:daily_cfu 24000t
+/function galiplug:daily_cfu
 ```
 
 ### 🛑 Come disattivarlo:
