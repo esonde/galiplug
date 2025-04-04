@@ -1,5 +1,5 @@
 
-# Galiplug - Il Gioco del Cucchiaio
+# Galiplug
 
 **Galiplug** è un progetto al momento composto da un **datapack** e un **resource pack**.
 
