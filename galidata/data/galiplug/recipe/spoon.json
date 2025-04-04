@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "gdc",
+  "key": {
+    "#": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "galiplug:spoon",
+      "minecraft:item_name": {
+        "translate": "item.galiplug.spoon"
+      },
+      "minecraft:lore": [
+        {
+          "translate": "item.galiplug.spoon.lore",
+          "fallback": "Spoon",
+          "with": [],
+          "color": "#8f6666",
+          "bold": true,
+          "italic": false,
+          "click_event": {
+            "action": "open_url",
+            "url": "https://giocodelcucchiaio.com/"
+          }
+        }
+      ],
+      "minecraft:rarity": "epic",
+      "minecraft:max_stack_size": 1
+    },
+    "count": 1,
+    "id": "minecraft:stick"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "model": {
+    "type": "minecraft:model",
+    "model": "galiplug:item/spoon"
+    }
+}
