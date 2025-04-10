@@ -52,8 +52,6 @@
 
 - **Risultato:**
   - Oggetto: **Stick** con modello, nome e descrizione personalizzata.
-  - Include un **link cliccabile** nel tooltip che rimanda a:  
-    https://giocodelcucchiaio.com/
 
 ---
 

@@ -14,24 +14,36 @@
     "components": {
       "minecraft:item_model": "galiplug:spoon",
       "minecraft:item_name": {
-        "translate": "item.galiplug.spoon"
+        "translate": "item.galiplug.spoon",
+        "fallback": "Spoon"
       },
       "minecraft:lore": [
         {
           "translate": "item.galiplug.spoon.lore",
-          "fallback": "Spoon",
-          "with": [],
+          "fallback": "A harmless weapon with legendary purpose.",
           "color": "#8f6666",
           "bold": true,
-          "italic": false,
-          "click_event": {
-            "action": "open_url",
-            "url": "https://giocodelcucchiaio.com/"
-          }
+          "italic": false
         }
       ],
       "minecraft:rarity": "epic",
-      "minecraft:max_stack_size": 1
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "spoon_hits": 0,
+        "version": "v1.0.0"
+      },
+      "minecraft:break_sound": "block.note_block.pling",
+      "minecraft:weapon": {
+        "item_damage_per_attack": 0,
+        "disable_blocking_for_seconds": 1
+      },
+      "minecraft:equippable": {
+        "slot": "head",
+        "equip_sound": "item.armor.equip_chain"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:custom_data"]
+      }
     },
     "count": 1,
     "id": "minecraft:stick"

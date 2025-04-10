@@ -1,5 +1,6 @@
 {
     "item.galiplug.spoon": "Cucchiaio",
-    "item.galiplug.spoon.lore": "Un'arma innocua dal fine leggendario."
+    "item.galiplug.spoon.lore": "Un'arma innocua dal fine leggendario.",
+    "item.galiplug.spoon.action_bar": "Questo cucchiaio ha fatto piangere %s persone."
 }
   
